@@ -1,0 +1,10 @@
+/*
+Enter your query here.
+*/
+SELECT 
+DISTINCT CITY 
+FROM 
+STATION 
+WHERE
+RIGHT(CITY,1) != 'a' AND RIGHT(CITY,1) != 'e' AND RIGHT(CITY,1) != 'i' AND RIGHT(CITY,1) != 'o'
+AND RIGHT(CITY,1) != 'u' AND RIGHT(CITY,1) != 'A' AND RIGHT(CITY,1) != 'E' AND RIGHT(CITY,1) != 'I' AND RIGHT(CITY,1) != 'O' AND RIGHT(CITY,1) != 'U'
